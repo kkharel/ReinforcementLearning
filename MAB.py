@@ -36,7 +36,7 @@ steps = 90000
 n_ads = len(ads)
 
 Q = np.zeros(n_ads)   # action values
-N = np.zeros(n_ads)  # total impressions
+N = np.zeros(n_ads)  
 cumulative_reward = 0
 avg_rewards = []    # average rewards over time
 optimal_action_total = 0 
